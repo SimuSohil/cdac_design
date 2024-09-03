@@ -1,0 +1,67 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.twilio.twilio_voice" >
+5
+6    <uses-sdk
+7        android:minSdkVersion="26"
+7-->/Users/simusohil/.pub-cache/hosted/pub.dev/twilio_voice-0.1.3/android/src/main/AndroidManifest.xml
+8        android:targetSdkVersion="26" />
+8-->/Users/simusohil/.pub-cache/hosted/pub.dev/twilio_voice-0.1.3/android/src/main/AndroidManifest.xml
+9
+10    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+10-->/Users/simusohil/.pub-cache/hosted/pub.dev/twilio_voice-0.1.3/android/src/main/AndroidManifest.xml:5:5-77
+10-->/Users/simusohil/.pub-cache/hosted/pub.dev/twilio_voice-0.1.3/android/src/main/AndroidManifest.xml:5:22-74
+11    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+11-->/Users/simusohil/.pub-cache/hosted/pub.dev/twilio_voice-0.1.3/android/src/main/AndroidManifest.xml:6:5-71
+11-->/Users/simusohil/.pub-cache/hosted/pub.dev/twilio_voice-0.1.3/android/src/main/AndroidManifest.xml:6:22-68
+12    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+12-->/Users/simusohil/.pub-cache/hosted/pub.dev/twilio_voice-0.1.3/android/src/main/AndroidManifest.xml:7:5-77
+12-->/Users/simusohil/.pub-cache/hosted/pub.dev/twilio_voice-0.1.3/android/src/main/AndroidManifest.xml:7:22-74
+13    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+13-->/Users/simusohil/.pub-cache/hosted/pub.dev/twilio_voice-0.1.3/android/src/main/AndroidManifest.xml:8:5-75
+13-->/Users/simusohil/.pub-cache/hosted/pub.dev/twilio_voice-0.1.3/android/src/main/AndroidManifest.xml:8:22-72
+14    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
+14-->/Users/simusohil/.pub-cache/hosted/pub.dev/twilio_voice-0.1.3/android/src/main/AndroidManifest.xml:9:5-77
+14-->/Users/simusohil/.pub-cache/hosted/pub.dev/twilio_voice-0.1.3/android/src/main/AndroidManifest.xml:9:22-74
+15    <uses-permission android:name="android.permission.CALL_PHONE" />
+15-->/Users/simusohil/.pub-cache/hosted/pub.dev/twilio_voice-0.1.3/android/src/main/AndroidManifest.xml:10:5-69
+15-->/Users/simusohil/.pub-cache/hosted/pub.dev/twilio_voice-0.1.3/android/src/main/AndroidManifest.xml:10:22-66
+16    <uses-permission android:name="android.permission.MANAGE_OWN_CALLS" />
+16-->/Users/simusohil/.pub-cache/hosted/pub.dev/twilio_voice-0.1.3/android/src/main/AndroidManifest.xml:11:5-75
+16-->/Users/simusohil/.pub-cache/hosted/pub.dev/twilio_voice-0.1.3/android/src/main/AndroidManifest.xml:11:22-72
+17    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MICROPHONE" />
+17-->/Users/simusohil/.pub-cache/hosted/pub.dev/twilio_voice-0.1.3/android/src/main/AndroidManifest.xml:12:5-87
+17-->/Users/simusohil/.pub-cache/hosted/pub.dev/twilio_voice-0.1.3/android/src/main/AndroidManifest.xml:12:22-85
+18
+19    <application>
+19-->/Users/simusohil/.pub-cache/hosted/pub.dev/twilio_voice-0.1.3/android/src/main/AndroidManifest.xml:14:5-29:19
+20        <service
+20-->/Users/simusohil/.pub-cache/hosted/pub.dev/twilio_voice-0.1.3/android/src/main/AndroidManifest.xml:15:9-24:19
+21            android:name="com.twilio.twilio_voice.service.TVConnectionService"
+21-->/Users/simusohil/.pub-cache/hosted/pub.dev/twilio_voice-0.1.3/android/src/main/AndroidManifest.xml:16:13-56
+22            android:exported="true"
+22-->/Users/simusohil/.pub-cache/hosted/pub.dev/twilio_voice-0.1.3/android/src/main/AndroidManifest.xml:17:13-36
+23            android:foregroundServiceType="microphone"
+23-->/Users/simusohil/.pub-cache/hosted/pub.dev/twilio_voice-0.1.3/android/src/main/AndroidManifest.xml:18:13-55
+24            android:label="@string/connection_service_name"
+24-->/Users/simusohil/.pub-cache/hosted/pub.dev/twilio_voice-0.1.3/android/src/main/AndroidManifest.xml:19:13-60
+25            android:permission="android.permission.BIND_TELECOM_CONNECTION_SERVICE" >
+25-->/Users/simusohil/.pub-cache/hosted/pub.dev/twilio_voice-0.1.3/android/src/main/AndroidManifest.xml:20:13-84
+26            <intent-filter>
+26-->/Users/simusohil/.pub-cache/hosted/pub.dev/twilio_voice-0.1.3/android/src/main/AndroidManifest.xml:21:13-23:29
+27                <action android:name="android.telecom.ConnectionService" />
+27-->/Users/simusohil/.pub-cache/hosted/pub.dev/twilio_voice-0.1.3/android/src/main/AndroidManifest.xml:22:17-76
+27-->/Users/simusohil/.pub-cache/hosted/pub.dev/twilio_voice-0.1.3/android/src/main/AndroidManifest.xml:22:25-73
+28            </intent-filter>
+29        </service>
+30
+31        <meta-data
+31-->/Users/simusohil/.pub-cache/hosted/pub.dev/twilio_voice-0.1.3/android/src/main/AndroidManifest.xml:26:9-28:33
+32            android:name="flutterEmbedding"
+32-->/Users/simusohil/.pub-cache/hosted/pub.dev/twilio_voice-0.1.3/android/src/main/AndroidManifest.xml:27:13-44
+33            android:value="2" />
+33-->/Users/simusohil/.pub-cache/hosted/pub.dev/twilio_voice-0.1.3/android/src/main/AndroidManifest.xml:28:13-30
+34    </application>
+35
+36</manifest>

@@ -1,0 +1,24 @@
+R_DEF: Internal format may change without notice
+local
+color accent
+color black
+color black75Transparent
+color blackHalfTransparent
+color colorGrayBlur
+color grayHeaderItem
+color grayLight
+color grayRadiobuttonBg
+color primary
+color white
+color white_55
+drawable bg_full_rounded
+drawable ic_microphone
+drawable launch_background
+drawable splash_icon
+mipmap ic_launcher
+string cancel
+string connection_service_name
+string phone_account_desc
+string phone_account_name
+string proceed
+style LaunchTheme
