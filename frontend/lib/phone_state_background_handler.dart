@@ -11,7 +11,6 @@ import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:phone_state_background/phone_state_background.dart';
 import 'spam_num_verify.dart';
 import 'alert_box.dart';
-import 'package:flutter_overlay_window/flutter_overlay_window.dart' as alert;
 
 final GlobalKey<NavigatorState> navigatorKey = GlobalKey<NavigatorState>();
 
@@ -259,21 +258,6 @@ class PhoneStateBackgroundHandler {
         log(jsonResponse['phishing_count'].toString());
         log(jsonResponse['phishing_percentage'].toString());
         if (jsonResponse['phishing_percentage'] > 15 ){
-          () async {
-                if (await alert.FlutterOverlayWindow.isActive()) return;
-                await alert.FlutterOverlayWindow.showOverlay(
-                  enableDrag: true,
-                  overlayTitle: "X-SLAYER",
-                  overlayContent: 'Overlay Enabled',
-                  flag: alert.OverlayFlag.defaultFlag,
-                  visibility: alert.NotificationVisibility.visibilityPublic,
-                  positionGravity: alert.PositionGravity.auto,
-                  height: alert.WindowSize.matchParent,
-                  width: alert.WindowSize.matchParent,
-                  startPosition: const alert.OverlayPosition(0, -259),
-                );
-              };
-          log('scam');
         }
       } else {
         log('Failed to send voice file. Status code: ${response.statusCode}');
@@ -282,23 +266,5 @@ class PhoneStateBackgroundHandler {
       log('Error sending voice file to API: $e');
     }
   }
-
-  Future<void> requestOverlayPermission() async {
-    if (!await alert.FlutterOverlayWindow.isPermissionGranted()) {
-      log('not granted');
-      await alert.FlutterOverlayWindow.requestPermission();
-    }
-  }
-
-  // static void showOverlay() {
-  //   log("overlay");
-  //   FlutterOverlayWindow.showOverlay(
-  //     height: 100,
-  //     width: 200,
-  //     alignment: OverlayAlignment.center,
-  //     overlayTitle: 'Scam number',
-  //     overlayContent: 'Scam!'
-  //   );
-  // }
 }
 
