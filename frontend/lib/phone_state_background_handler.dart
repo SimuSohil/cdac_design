@@ -10,20 +10,10 @@ import 'package:http/http.dart' as http;
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:phone_state_background/phone_state_background.dart';
 import 'spam_num_verify.dart';
-import 'alert_box.dart';
 
 final GlobalKey<NavigatorState> navigatorKey = GlobalKey<NavigatorState>();
 
 @pragma('vm:entry-point')
-void overlayMain() {
-  WidgetsFlutterBinding.ensureInitialized();
-  runApp(
-    const MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: AlertBoxSection(),
-    ),
-  );
-}
 Future<void> phoneStateBackgroundCallbackHandler(
   PhoneStateBackgroundEvent event,
   String number,
