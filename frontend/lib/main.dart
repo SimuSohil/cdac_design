@@ -1,8 +1,12 @@
-import 'package:cdac_design/home_screen.dart';
+import 'package:cdac_design/authentication/login_page.dart';
+import 'package:cdac_design/firebase_options.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'phone_state_background_handler.dart';
 
-void main(){
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
   runApp(const MyApp());
 }
 
@@ -29,7 +33,7 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       title: 'Anti-Vishing Application',
       theme: ThemeData(),
-      home: const HomeScreen(),
+      home: const LoginPage(),
     );
   }
 }

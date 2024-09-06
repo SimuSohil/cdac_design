@@ -1,16 +1,50 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.cdac_design.app-mergeDebugResources-26:/values-pt/values-pt.xml",
+            "outputFile": "com.example.cdac_design.app-mergeDebugResources-34:/values-pt/values-pt.xml",
             "map": [
                 {
-                    "source": "/Users/simusohil/.gradle/caches/transforms-3/4b8b481fb2255c467bc7c602d4317379/transformed/core-1.13.1/res/values-pt/values-pt.xml",
+                    "source": "/Users/simusohil/.gradle/caches/transforms-3/6430f4e3b0faebfe1b3eda4b90828a2c/transformed/core-1.13.1/res/values-pt/values-pt.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
                         "startOffsets": "55,152,254,353,453,560,670,790",
                         "endColumns": "96,101,98,99,106,109,119,100",
                         "endOffsets": "147,249,348,448,555,665,785,886"
+                    },
+                    "to": {
+                        "startLines": "4,5,6,7,8,9,10,15",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "286,383,485,584,684,791,901,1453",
+                        "endColumns": "96,101,98,99,106,109,119,100",
+                        "endOffsets": "378,480,579,679,786,896,1016,1549"
+                    }
+                },
+                {
+                    "source": "/Users/simusohil/.gradle/caches/transforms-3/1ad8122b6c97dc55ef0a1901d06fd42e/transformed/browser-1.4.0/res/values-pt/values-pt.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,170,269,381",
+                        "endColumns": "114,98,111,105",
+                        "endOffsets": "165,264,376,482"
+                    },
+                    "to": {
+                        "startLines": "11,12,13,14",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "1021,1136,1235,1347",
+                        "endColumns": "114,98,111,105",
+                        "endOffsets": "1131,1230,1342,1448"
+                    }
+                },
+                {
+                    "source": "/Users/simusohil/.gradle/caches/transforms-3/afa8cdc4d05991214f9a023cd0f87d10/transformed/jetified-credentials-1.2.0-rc01/res/values-pt/values-pt.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,164",
+                        "endColumns": "108,121",
+                        "endOffsets": "159,281"
                     }
                 }
             ]

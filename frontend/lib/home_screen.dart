@@ -1,7 +1,9 @@
+import 'package:cdac_design/authentication/login_page.dart';
 import 'package:cdac_design/bottomNavBar/call_logs.dart';
 import 'package:cdac_design/bottomNavBar/contacts.dart';
 import 'package:cdac_design/bottomNavBar/vishing_data.dart';
 import 'package:convex_bottom_bar/convex_bottom_bar.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -12,6 +14,8 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
+  final FirebaseAuth _auth = FirebaseAuth.instance;
+
   int _currentPage = 0;
 
   static final List<Widget> _widgetOptions = <Widget>[
@@ -21,6 +25,14 @@ class _HomeScreenState extends State<HomeScreen> {
   ];
 
   final GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey<ScaffoldState>();
+
+  void logout() async {
+    await _auth.signOut();
+    // ignore: use_build_context_synchronously
+    Navigator.of(context).pushReplacement(
+      MaterialPageRoute(builder: (context) => const LoginPage())
+    );
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -63,9 +75,15 @@ class _HomeScreenState extends State<HomeScreen> {
                 ],
               ),
             ),
-            const ListTile(
-              leading: Icon(Icons.logout),
-              title: Text('Logout'),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.start,
+              children: [
+                TextButton.icon(
+                  onPressed: logout, 
+                  label: const Text('logout'),
+                  icon: const Icon(Icons.logout),
+                ),
+              ],
             )
           ],
         ),
@@ -89,5 +107,5 @@ class _HomeScreenState extends State<HomeScreen> {
         height: 60,
       ),
     );
-  }
+  } 
 }

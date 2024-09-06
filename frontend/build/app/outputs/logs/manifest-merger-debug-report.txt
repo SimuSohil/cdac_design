@@ -1,20 +1,48 @@
 -- Merging decision tree log ---
 application
 INJECTED from /Users/simusohil/Developer/Internship/cdac_design/frontend/android/app/src/main/AndroidManifest.xml:14:5-56:19
-MERGED from [androidx.window:window:1.2.0] /Users/simusohil/.gradle/caches/transforms-3/1df38b1fd9979fe065e8eb6119fc0ad4/transformed/jetified-window-1.2.0/AndroidManifest.xml:22:5-29:19
-MERGED from [androidx.window:window:1.2.0] /Users/simusohil/.gradle/caches/transforms-3/1df38b1fd9979fe065e8eb6119fc0ad4/transformed/jetified-window-1.2.0/AndroidManifest.xml:22:5-29:19
-MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/simusohil/.gradle/caches/transforms-3/80ba39cc38777c140051c1d40ad7cd31/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/simusohil/.gradle/caches/transforms-3/80ba39cc38777c140051c1d40ad7cd31/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.core:core:1.13.1] /Users/simusohil/.gradle/caches/transforms-3/4b8b481fb2255c467bc7c602d4317379/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
-MERGED from [androidx.core:core:1.13.1] /Users/simusohil/.gradle/caches/transforms-3/4b8b481fb2255c467bc7c602d4317379/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/simusohil/.gradle/caches/transforms-3/6b42a1475832e971603c3bac16a8450c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/simusohil/.gradle/caches/transforms-3/6b42a1475832e971603c3bac16a8450c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/simusohil/.gradle/caches/transforms-3/7ea3e1185ec380ec440d8e9c1720d237/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/simusohil/.gradle/caches/transforms-3/7ea3e1185ec380ec440d8e9c1720d237/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/simusohil/.gradle/caches/transforms-3/25855d680f3bf83921331312a050106d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/simusohil/.gradle/caches/transforms-3/25855d680f3bf83921331312a050106d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [:firebase_auth] /Users/simusohil/Developer/Internship/cdac_design/frontend/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_auth] /Users/simusohil/Developer/Internship/cdac_design/frontend/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_core] /Users/simusohil/Developer/Internship/cdac_design/frontend/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_core] /Users/simusohil/Developer/Internship/cdac_design/frontend/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.firebase:firebase-auth:23.0.0] /Users/simusohil/.gradle/caches/transforms-3/b9ba1dad3dc85dbfd7292e7738866ac7/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:28:5-73:19
+MERGED from [com.google.firebase:firebase-auth:23.0.0] /Users/simusohil/.gradle/caches/transforms-3/b9ba1dad3dc85dbfd7292e7738866ac7/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:28:5-73:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/simusohil/.gradle/caches/transforms-3/7edf9712d021b137d42fd55ad209f8e4/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/simusohil/.gradle/caches/transforms-3/7edf9712d021b137d42fd55ad209f8e4/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:8:5-16:19
+MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/simusohil/.gradle/caches/transforms-3/8801c95ea09a0365798a9b75f4d42684/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:23:5-42:19
+MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/simusohil/.gradle/caches/transforms-3/8801c95ea09a0365798a9b75f4d42684/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:23:5-42:19
+MERGED from [androidx.window:window:1.2.0] /Users/simusohil/.gradle/caches/transforms-3/eace721136ac70d22a327078935f4b85/transformed/jetified-window-1.2.0/AndroidManifest.xml:22:5-29:19
+MERGED from [androidx.window:window:1.2.0] /Users/simusohil/.gradle/caches/transforms-3/eace721136ac70d22a327078935f4b85/transformed/jetified-window-1.2.0/AndroidManifest.xml:22:5-29:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/simusohil/.gradle/caches/transforms-3/2bf7dd3fbfbc7dc2beadbc8b9f218462/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/simusohil/.gradle/caches/transforms-3/2bf7dd3fbfbc7dc2beadbc8b9f218462/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/simusohil/.gradle/caches/transforms-3/f3066f6bfe821ca4038f657de9c24836/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/simusohil/.gradle/caches/transforms-3/f3066f6bfe821ca4038f657de9c24836/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] /Users/simusohil/.gradle/caches/transforms-3/7d3313807bc17557f3d7a2cfa181b720/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] /Users/simusohil/.gradle/caches/transforms-3/7d3313807bc17557f3d7a2cfa181b720/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.play:integrity:1.2.0] /Users/simusohil/.gradle/caches/transforms-3/e27de45e918ebbd289937904e3834101/transformed/jetified-integrity-1.2.0/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.play:integrity:1.2.0] /Users/simusohil/.gradle/caches/transforms-3/e27de45e918ebbd289937904e3834101/transformed/jetified-integrity-1.2.0/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/simusohil/.gradle/caches/transforms-3/b5e7bc62c07cd9764e5b28bb75014607/transformed/jetified-firebase-appcheck-interop-17.0.0/AndroidManifest.xml:23:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/simusohil/.gradle/caches/transforms-3/b5e7bc62c07cd9764e5b28bb75014607/transformed/jetified-firebase-appcheck-interop-17.0.0/AndroidManifest.xml:23:5-20
+MERGED from [com.google.android.gms:play-services-fido:20.1.0] /Users/simusohil/.gradle/caches/transforms-3/354c66f38e3ba28619bd11e6ea9603dd/transformed/jetified-play-services-fido-20.1.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-fido:20.1.0] /Users/simusohil/.gradle/caches/transforms-3/354c66f38e3ba28619bd11e6ea9603dd/transformed/jetified-play-services-fido-20.1.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/simusohil/.gradle/caches/transforms-3/1a055176cd3836df10cd5eb334faf6d7/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/simusohil/.gradle/caches/transforms-3/1a055176cd3836df10cd5eb334faf6d7/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/simusohil/.gradle/caches/transforms-3/a8e1c5a62419563a2a63de3a72457386/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/simusohil/.gradle/caches/transforms-3/a8e1c5a62419563a2a63de3a72457386/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] /Users/simusohil/.gradle/caches/transforms-3/43b0550adeb80d93a0be555f0b7d1d48/transformed/jetified-play-services-tasks-18.1.0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] /Users/simusohil/.gradle/caches/transforms-3/43b0550adeb80d93a0be555f0b7d1d48/transformed/jetified-play-services-tasks-18.1.0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] /Users/simusohil/.gradle/caches/transforms-3/646a488d66ca28bc1a883b8f70bb36ba/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] /Users/simusohil/.gradle/caches/transforms-3/646a488d66ca28bc1a883b8f70bb36ba/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.core:core:1.13.1] /Users/simusohil/.gradle/caches/transforms-3/6430f4e3b0faebfe1b3eda4b90828a2c/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.1] /Users/simusohil/.gradle/caches/transforms-3/6430f4e3b0faebfe1b3eda4b90828a2c/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/simusohil/.gradle/caches/transforms-3/9aeed4728b4b4b74dda16842ae3cb807/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/simusohil/.gradle/caches/transforms-3/9aeed4728b4b4b74dda16842ae3cb807/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/simusohil/.gradle/caches/transforms-3/d169610e93ab85280e50645141adb743/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/simusohil/.gradle/caches/transforms-3/d169610e93ab85280e50645141adb743/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/simusohil/.gradle/caches/transforms-3/6d7cb45695ec0cda848617f21bd6fdd9/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/simusohil/.gradle/caches/transforms-3/6d7cb45695ec0cda848617f21bd6fdd9/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.13.1] /Users/simusohil/.gradle/caches/transforms-3/4b8b481fb2255c467bc7c602d4317379/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+		ADDED from [androidx.core:core:1.13.1] /Users/simusohil/.gradle/caches/transforms-3/6430f4e3b0faebfe1b3eda4b90828a2c/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
 	android:name
 		INJECTED from /Users/simusohil/Developer/Internship/cdac_design/frontend/android/app/src/main/AndroidManifest.xml
 manifest
@@ -26,6 +54,8 @@ MERGED from /Users/simusohil/Developer/Internship/cdac_design/frontend/android/a
 MERGED from [:call_log] /Users/simusohil/Developer/Internship/cdac_design/frontend/build/call_log/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-12:12
 MERGED from [:contacts_service] /Users/simusohil/Developer/Internship/cdac_design/frontend/build/contacts_service/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-24:12
 MERGED from [:file_picker] /Users/simusohil/Developer/Internship/cdac_design/frontend/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-21:12
+MERGED from [:firebase_auth] /Users/simusohil/Developer/Internship/cdac_design/frontend/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-17:12
+MERGED from [:firebase_core] /Users/simusohil/Developer/Internship/cdac_design/frontend/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-17:12
 MERGED from [:flutter_local_notifications] /Users/simusohil/Developer/Internship/cdac_design/frontend/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-12:12
 MERGED from [:flutter_overlay_window] /Users/simusohil/Developer/Internship/cdac_design/frontend/build/flutter_overlay_window/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-13:12
 MERGED from [:flutter_plugin_android_lifecycle] /Users/simusohil/Developer/Internship/cdac_design/frontend/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
@@ -33,32 +63,52 @@ MERGED from [:path_provider_android] /Users/simusohil/Developer/Internship/cdac_
 MERGED from [:permission_handler_android] /Users/simusohil/Developer/Internship/cdac_design/frontend/build/permission_handler_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:phone_state] /Users/simusohil/Developer/Internship/cdac_design/frontend/build/phone_state/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:phone_state_background] /Users/simusohil/Developer/Internship/cdac_design/frontend/build/phone_state_background/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
-MERGED from [androidx.media:media:1.1.0] /Users/simusohil/.gradle/caches/transforms-3/6aefadb56823aa8c6753e744b6d16ede/transformed/media-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.window:window:1.2.0] /Users/simusohil/.gradle/caches/transforms-3/1df38b1fd9979fe065e8eb6119fc0ad4/transformed/jetified-window-1.2.0/AndroidManifest.xml:17:1-31:12
-MERGED from [androidx.window:window-java:1.2.0] /Users/simusohil/.gradle/caches/transforms-3/518368b3492abd0da5fabfac0485263e/transformed/jetified-window-java-1.2.0/AndroidManifest.xml:17:1-21:12
-MERGED from [androidx.fragment:fragment:1.7.1] /Users/simusohil/.gradle/caches/transforms-3/33ffda7dbacf2e9f56610e54a5ba299c/transformed/fragment-1.7.1/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.activity:activity:1.8.1] /Users/simusohil/.gradle/caches/transforms-3/517d5bc2a87c577976719f886a2c84da/transformed/jetified-activity-1.8.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] /Users/simusohil/.gradle/caches/transforms-3/6c0c3bff584b61f0816eda5415c23046/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/simusohil/.gradle/caches/transforms-3/96b6cc11439e2b655f2eaef463028ffe/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /Users/simusohil/.gradle/caches/transforms-3/3db403d83a9d5bbd83e7a5295b2db2ca/transformed/jetified-lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /Users/simusohil/.gradle/caches/transforms-3/0b0a2e9682ead0e327b49aa686b67fa8/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /Users/simusohil/.gradle/caches/transforms-3/4c73bbd8e8c7dfc9f973cba09e0d18e4/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /Users/simusohil/.gradle/caches/transforms-3/228b14e0c0b91b9426bbac083c062b31/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/simusohil/.gradle/caches/transforms-3/80ba39cc38777c140051c1d40ad7cd31/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:17:1-35:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /Users/simusohil/.gradle/caches/transforms-3/a3239c0ac04109b57302bb71ad7b513b/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core-ktx:1.13.1] /Users/simusohil/.gradle/caches/transforms-3/11b7ad9632fb6be2706fec8bca4cb594/transformed/jetified-core-ktx-1.13.1/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.customview:customview:1.0.0] /Users/simusohil/.gradle/caches/transforms-3/4ecbc82ffacadbb4a068eda62f4c9f37/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.13.1] /Users/simusohil/.gradle/caches/transforms-3/4b8b481fb2255c467bc7c602d4317379/transformed/core-1.13.1/AndroidManifest.xml:17:1-30:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /Users/simusohil/.gradle/caches/transforms-3/9804338b616efa9b017b4395e52a6c1f/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/simusohil/.gradle/caches/transforms-3/6de8b13d87e35ae303347fd58f8aa3cd/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/simusohil/.gradle/caches/transforms-3/6b42a1475832e971603c3bac16a8450c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:17:1-55:12
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/simusohil/.gradle/caches/transforms-3/7ea3e1185ec380ec440d8e9c1720d237/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
-MERGED from [androidx.tracing:tracing:1.2.0] /Users/simusohil/.gradle/caches/transforms-3/beeff2df297dfde5c998311e095e3383/transformed/jetified-tracing-1.2.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/simusohil/.gradle/caches/transforms-3/a90a5c0d1110f83aec4e8264f050cf5d/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/simusohil/.gradle/caches/transforms-3/a0ecbd406870c002796c9b4aeb1b5186/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/simusohil/.gradle/caches/transforms-3/25855d680f3bf83921331312a050106d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.window.extensions.core:core:1.0.0] /Users/simusohil/.gradle/caches/transforms-3/b8ab76833b5222331a2c74676e9db871/transformed/jetified-core-1.0.0/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/simusohil/.gradle/caches/transforms-3/4bbc5063b50faba0a8dd7e25735aaef2/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-auth:23.0.0] /Users/simusohil/.gradle/caches/transforms-3/b9ba1dad3dc85dbfd7292e7738866ac7/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:17:1-75:12
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/simusohil/.gradle/caches/transforms-3/7edf9712d021b137d42fd55ad209f8e4/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:2:1-18:12
+MERGED from [androidx.credentials:credentials:1.2.0-rc01] /Users/simusohil/.gradle/caches/transforms-3/afa8cdc4d05991214f9a023cd0f87d10/transformed/jetified-credentials-1.2.0-rc01/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/simusohil/.gradle/caches/transforms-3/8801c95ea09a0365798a9b75f4d42684/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:17:1-44:12
+MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] /Users/simusohil/.gradle/caches/transforms-3/70e9676c650e169bfd24b62633b652c2/transformed/jetified-googleid-1.1.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.media:media:1.1.0] /Users/simusohil/.gradle/caches/transforms-3/34c715c5f1371681a120da7c579552f6/transformed/media-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.window:window:1.2.0] /Users/simusohil/.gradle/caches/transforms-3/eace721136ac70d22a327078935f4b85/transformed/jetified-window-1.2.0/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.window:window-java:1.2.0] /Users/simusohil/.gradle/caches/transforms-3/38035a476a4dd65136271cc079bce33e/transformed/jetified-window-java-1.2.0/AndroidManifest.xml:17:1-21:12
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/simusohil/.gradle/caches/transforms-3/2bf7dd3fbfbc7dc2beadbc8b9f218462/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/simusohil/.gradle/caches/transforms-3/f3066f6bfe821ca4038f657de9c24836/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] /Users/simusohil/.gradle/caches/transforms-3/7d3313807bc17557f3d7a2cfa181b720/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] /Users/simusohil/.gradle/caches/transforms-3/7acaa32af0e67a6c677bcdabdd2de050/transformed/jetified-play-services-auth-api-phone-18.0.2/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] /Users/simusohil/.gradle/caches/transforms-3/e745b3fe6b16bea8e20920ff2509e776/transformed/jetified-recaptcha-18.4.0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.play:integrity:1.2.0] /Users/simusohil/.gradle/caches/transforms-3/e27de45e918ebbd289937904e3834101/transformed/jetified-integrity-1.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/simusohil/.gradle/caches/transforms-3/b5e7bc62c07cd9764e5b28bb75014607/transformed/jetified-firebase-appcheck-interop-17.0.0/AndroidManifest.xml:15:1-25:12
+MERGED from [com.google.android.gms:play-services-fido:20.1.0] /Users/simusohil/.gradle/caches/transforms-3/354c66f38e3ba28619bd11e6ea9603dd/transformed/jetified-play-services-fido-20.1.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] /Users/simusohil/.gradle/caches/transforms-3/4c61a322aad3afceff80cdfd2d8e6991/transformed/jetified-play-services-auth-base-18.0.4/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/simusohil/.gradle/caches/transforms-3/1a055176cd3836df10cd5eb334faf6d7/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:16:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/simusohil/.gradle/caches/transforms-3/a637a48112c6d55e69268f61b64795dc/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /Users/simusohil/.gradle/caches/transforms-3/3721b3f1ccaf2bc7e7dab3dd53b44ca2/transformed/jetified-lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /Users/simusohil/.gradle/caches/transforms-3/3db9b00dfb0398895b1f3773a7356832/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /Users/simusohil/.gradle/caches/transforms-3/6ca65c43b930d5411912ad3e653f4097/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /Users/simusohil/.gradle/caches/transforms-3/79e64b439afd422335eb5b03c352f246/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/simusohil/.gradle/caches/transforms-3/a8e1c5a62419563a2a63de3a72457386/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /Users/simusohil/.gradle/caches/transforms-3/8d576f45e31f05e77c8ee699b7852335/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] /Users/simusohil/.gradle/caches/transforms-3/43b0550adeb80d93a0be555f0b7d1d48/transformed/jetified-play-services-tasks-18.1.0/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] /Users/simusohil/.gradle/caches/transforms-3/646a488d66ca28bc1a883b8f70bb36ba/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.7.1] /Users/simusohil/.gradle/caches/transforms-3/1ccaf9cf684e089426becda668196b86/transformed/fragment-1.7.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity:1.8.1] /Users/simusohil/.gradle/caches/transforms-3/3b0248bbf133ae1e37debf4cf5896738/transformed/jetified-activity-1.8.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/simusohil/.gradle/caches/transforms-3/6b11cc3777da29c180d17a4097271950/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/simusohil/.gradle/caches/transforms-3/a60b09b30fecbfbd0b82f41021b41419/transformed/jetified-core-ktx-1.13.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.browser:browser:1.4.0] /Users/simusohil/.gradle/caches/transforms-3/1ad8122b6c97dc55ef0a1901d06fd42e/transformed/browser-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/simusohil/.gradle/caches/transforms-3/1e8af1ca00093b8425b6996a179a252c/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.13.1] /Users/simusohil/.gradle/caches/transforms-3/6430f4e3b0faebfe1b3eda4b90828a2c/transformed/core-1.13.1/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /Users/simusohil/.gradle/caches/transforms-3/176575d80adebce00aa96bd227962e1f/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/simusohil/.gradle/caches/transforms-3/43ebc5e51d1c66c0d84361621ba60ff0/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/simusohil/.gradle/caches/transforms-3/9aeed4728b4b4b74dda16842ae3cb807/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/simusohil/.gradle/caches/transforms-3/d169610e93ab85280e50645141adb743/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/simusohil/.gradle/caches/transforms-3/1d74829cba53c8cea9298290b06e0d79/transformed/jetified-tracing-1.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/simusohil/.gradle/caches/transforms-3/295647598c2866308621c94549bf0bb9/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/simusohil/.gradle/caches/transforms-3/2780d6879e22daee9ecb08094c931ac6/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/simusohil/.gradle/caches/transforms-3/6d7cb45695ec0cda848617f21bd6fdd9/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/simusohil/.gradle/caches/transforms-3/7d3d19a2a98e677d32dc2d55829c44e6/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:18.0.0] /Users/simusohil/.gradle/caches/transforms-3/1705a4758267e586d7c41c8c55a8fccd/transformed/jetified-firebase-components-18.0.0/AndroidManifest.xml:15:1-20:12
+MERGED from [androidx.window.extensions.core:core:1.0.0] /Users/simusohil/.gradle/caches/transforms-3/bd56a8c86f5d9dfd8e06ca6bd44b27dd/transformed/jetified-core-1.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/simusohil/.gradle/caches/transforms-3/5c87b94a99b43b14e0ff703167c8a164/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:2:1-7:12
 INJECTED from /Users/simusohil/Developer/Internship/cdac_design/frontend/android/app/src/debug/AndroidManifest.xml:1:1-7:12
 INJECTED from /Users/simusohil/Developer/Internship/cdac_design/frontend/android/app/src/debug/AndroidManifest.xml:1:1-7:12
 INJECTED from /Users/simusohil/Developer/Internship/cdac_design/frontend/android/app/src/debug/AndroidManifest.xml:1:1-7:12
@@ -146,6 +196,10 @@ MERGED from [:contacts_service] /Users/simusohil/Developer/Internship/cdac_desig
 MERGED from [:contacts_service] /Users/simusohil/Developer/Internship/cdac_design/frontend/build/contacts_service/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:file_picker] /Users/simusohil/Developer/Internship/cdac_design/frontend/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:file_picker] /Users/simusohil/Developer/Internship/cdac_design/frontend/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_auth] /Users/simusohil/Developer/Internship/cdac_design/frontend/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_auth] /Users/simusohil/Developer/Internship/cdac_design/frontend/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_core] /Users/simusohil/Developer/Internship/cdac_design/frontend/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_core] /Users/simusohil/Developer/Internship/cdac_design/frontend/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:flutter_local_notifications] /Users/simusohil/Developer/Internship/cdac_design/frontend/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:flutter_local_notifications] /Users/simusohil/Developer/Internship/cdac_design/frontend/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:flutter_overlay_window] /Users/simusohil/Developer/Internship/cdac_design/frontend/build/flutter_overlay_window/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
@@ -160,60 +214,102 @@ MERGED from [:phone_state] /Users/simusohil/Developer/Internship/cdac_design/fro
 MERGED from [:phone_state] /Users/simusohil/Developer/Internship/cdac_design/frontend/build/phone_state/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:phone_state_background] /Users/simusohil/Developer/Internship/cdac_design/frontend/build/phone_state_background/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:phone_state_background] /Users/simusohil/Developer/Internship/cdac_design/frontend/build/phone_state_background/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.media:media:1.1.0] /Users/simusohil/.gradle/caches/transforms-3/6aefadb56823aa8c6753e744b6d16ede/transformed/media-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.media:media:1.1.0] /Users/simusohil/.gradle/caches/transforms-3/6aefadb56823aa8c6753e744b6d16ede/transformed/media-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.window:window:1.2.0] /Users/simusohil/.gradle/caches/transforms-3/1df38b1fd9979fe065e8eb6119fc0ad4/transformed/jetified-window-1.2.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.window:window:1.2.0] /Users/simusohil/.gradle/caches/transforms-3/1df38b1fd9979fe065e8eb6119fc0ad4/transformed/jetified-window-1.2.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.window:window-java:1.2.0] /Users/simusohil/.gradle/caches/transforms-3/518368b3492abd0da5fabfac0485263e/transformed/jetified-window-java-1.2.0/AndroidManifest.xml:19:5-44
-MERGED from [androidx.window:window-java:1.2.0] /Users/simusohil/.gradle/caches/transforms-3/518368b3492abd0da5fabfac0485263e/transformed/jetified-window-java-1.2.0/AndroidManifest.xml:19:5-44
-MERGED from [androidx.fragment:fragment:1.7.1] /Users/simusohil/.gradle/caches/transforms-3/33ffda7dbacf2e9f56610e54a5ba299c/transformed/fragment-1.7.1/AndroidManifest.xml:5:5-44
-MERGED from [androidx.fragment:fragment:1.7.1] /Users/simusohil/.gradle/caches/transforms-3/33ffda7dbacf2e9f56610e54a5ba299c/transformed/fragment-1.7.1/AndroidManifest.xml:5:5-44
-MERGED from [androidx.activity:activity:1.8.1] /Users/simusohil/.gradle/caches/transforms-3/517d5bc2a87c577976719f886a2c84da/transformed/jetified-activity-1.8.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.8.1] /Users/simusohil/.gradle/caches/transforms-3/517d5bc2a87c577976719f886a2c84da/transformed/jetified-activity-1.8.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/simusohil/.gradle/caches/transforms-3/6c0c3bff584b61f0816eda5415c23046/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/simusohil/.gradle/caches/transforms-3/6c0c3bff584b61f0816eda5415c23046/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/simusohil/.gradle/caches/transforms-3/96b6cc11439e2b655f2eaef463028ffe/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/simusohil/.gradle/caches/transforms-3/96b6cc11439e2b655f2eaef463028ffe/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /Users/simusohil/.gradle/caches/transforms-3/3db403d83a9d5bbd83e7a5295b2db2ca/transformed/jetified-lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /Users/simusohil/.gradle/caches/transforms-3/3db403d83a9d5bbd83e7a5295b2db2ca/transformed/jetified-lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /Users/simusohil/.gradle/caches/transforms-3/0b0a2e9682ead0e327b49aa686b67fa8/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /Users/simusohil/.gradle/caches/transforms-3/0b0a2e9682ead0e327b49aa686b67fa8/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /Users/simusohil/.gradle/caches/transforms-3/4c73bbd8e8c7dfc9f973cba09e0d18e4/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /Users/simusohil/.gradle/caches/transforms-3/4c73bbd8e8c7dfc9f973cba09e0d18e4/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /Users/simusohil/.gradle/caches/transforms-3/228b14e0c0b91b9426bbac083c062b31/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /Users/simusohil/.gradle/caches/transforms-3/228b14e0c0b91b9426bbac083c062b31/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/simusohil/.gradle/caches/transforms-3/80ba39cc38777c140051c1d40ad7cd31/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:21:5-44
-MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/simusohil/.gradle/caches/transforms-3/80ba39cc38777c140051c1d40ad7cd31/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:21:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /Users/simusohil/.gradle/caches/transforms-3/a3239c0ac04109b57302bb71ad7b513b/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /Users/simusohil/.gradle/caches/transforms-3/a3239c0ac04109b57302bb71ad7b513b/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core-ktx:1.13.1] /Users/simusohil/.gradle/caches/transforms-3/11b7ad9632fb6be2706fec8bca4cb594/transformed/jetified-core-ktx-1.13.1/AndroidManifest.xml:5:5-44
-MERGED from [androidx.core:core-ktx:1.13.1] /Users/simusohil/.gradle/caches/transforms-3/11b7ad9632fb6be2706fec8bca4cb594/transformed/jetified-core-ktx-1.13.1/AndroidManifest.xml:5:5-44
-MERGED from [androidx.customview:customview:1.0.0] /Users/simusohil/.gradle/caches/transforms-3/4ecbc82ffacadbb4a068eda62f4c9f37/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] /Users/simusohil/.gradle/caches/transforms-3/4ecbc82ffacadbb4a068eda62f4c9f37/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.13.1] /Users/simusohil/.gradle/caches/transforms-3/4b8b481fb2255c467bc7c602d4317379/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.13.1] /Users/simusohil/.gradle/caches/transforms-3/4b8b481fb2255c467bc7c602d4317379/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /Users/simusohil/.gradle/caches/transforms-3/9804338b616efa9b017b4395e52a6c1f/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /Users/simusohil/.gradle/caches/transforms-3/9804338b616efa9b017b4395e52a6c1f/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/simusohil/.gradle/caches/transforms-3/6de8b13d87e35ae303347fd58f8aa3cd/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/simusohil/.gradle/caches/transforms-3/6de8b13d87e35ae303347fd58f8aa3cd/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/simusohil/.gradle/caches/transforms-3/6b42a1475832e971603c3bac16a8450c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/simusohil/.gradle/caches/transforms-3/6b42a1475832e971603c3bac16a8450c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/simusohil/.gradle/caches/transforms-3/7ea3e1185ec380ec440d8e9c1720d237/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/simusohil/.gradle/caches/transforms-3/7ea3e1185ec380ec440d8e9c1720d237/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.tracing:tracing:1.2.0] /Users/simusohil/.gradle/caches/transforms-3/beeff2df297dfde5c998311e095e3383/transformed/jetified-tracing-1.2.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.tracing:tracing:1.2.0] /Users/simusohil/.gradle/caches/transforms-3/beeff2df297dfde5c998311e095e3383/transformed/jetified-tracing-1.2.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/simusohil/.gradle/caches/transforms-3/a90a5c0d1110f83aec4e8264f050cf5d/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/simusohil/.gradle/caches/transforms-3/a90a5c0d1110f83aec4e8264f050cf5d/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/simusohil/.gradle/caches/transforms-3/a0ecbd406870c002796c9b4aeb1b5186/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/simusohil/.gradle/caches/transforms-3/a0ecbd406870c002796c9b4aeb1b5186/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/simusohil/.gradle/caches/transforms-3/25855d680f3bf83921331312a050106d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/simusohil/.gradle/caches/transforms-3/25855d680f3bf83921331312a050106d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.window.extensions.core:core:1.0.0] /Users/simusohil/.gradle/caches/transforms-3/b8ab76833b5222331a2c74676e9db871/transformed/jetified-core-1.0.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.window.extensions.core:core:1.0.0] /Users/simusohil/.gradle/caches/transforms-3/b8ab76833b5222331a2c74676e9db871/transformed/jetified-core-1.0.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/simusohil/.gradle/caches/transforms-3/4bbc5063b50faba0a8dd7e25735aaef2/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/simusohil/.gradle/caches/transforms-3/4bbc5063b50faba0a8dd7e25735aaef2/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth:23.0.0] /Users/simusohil/.gradle/caches/transforms-3/b9ba1dad3dc85dbfd7292e7738866ac7/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:21:5-23:151
+MERGED from [com.google.firebase:firebase-auth:23.0.0] /Users/simusohil/.gradle/caches/transforms-3/b9ba1dad3dc85dbfd7292e7738866ac7/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:21:5-23:151
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/simusohil/.gradle/caches/transforms-3/7edf9712d021b137d42fd55ad209f8e4/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/simusohil/.gradle/caches/transforms-3/7edf9712d021b137d42fd55ad209f8e4/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.credentials:credentials:1.2.0-rc01] /Users/simusohil/.gradle/caches/transforms-3/afa8cdc4d05991214f9a023cd0f87d10/transformed/jetified-credentials-1.2.0-rc01/AndroidManifest.xml:5:5-44
+MERGED from [androidx.credentials:credentials:1.2.0-rc01] /Users/simusohil/.gradle/caches/transforms-3/afa8cdc4d05991214f9a023cd0f87d10/transformed/jetified-credentials-1.2.0-rc01/AndroidManifest.xml:5:5-44
+MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/simusohil/.gradle/caches/transforms-3/8801c95ea09a0365798a9b75f4d42684/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:21:5-44
+MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/simusohil/.gradle/caches/transforms-3/8801c95ea09a0365798a9b75f4d42684/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:21:5-44
+MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] /Users/simusohil/.gradle/caches/transforms-3/70e9676c650e169bfd24b62633b652c2/transformed/jetified-googleid-1.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] /Users/simusohil/.gradle/caches/transforms-3/70e9676c650e169bfd24b62633b652c2/transformed/jetified-googleid-1.1.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.media:media:1.1.0] /Users/simusohil/.gradle/caches/transforms-3/34c715c5f1371681a120da7c579552f6/transformed/media-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.1.0] /Users/simusohil/.gradle/caches/transforms-3/34c715c5f1371681a120da7c579552f6/transformed/media-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.2.0] /Users/simusohil/.gradle/caches/transforms-3/eace721136ac70d22a327078935f4b85/transformed/jetified-window-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.window:window:1.2.0] /Users/simusohil/.gradle/caches/transforms-3/eace721136ac70d22a327078935f4b85/transformed/jetified-window-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.window:window-java:1.2.0] /Users/simusohil/.gradle/caches/transforms-3/38035a476a4dd65136271cc079bce33e/transformed/jetified-window-java-1.2.0/AndroidManifest.xml:19:5-44
+MERGED from [androidx.window:window-java:1.2.0] /Users/simusohil/.gradle/caches/transforms-3/38035a476a4dd65136271cc079bce33e/transformed/jetified-window-java-1.2.0/AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/simusohil/.gradle/caches/transforms-3/2bf7dd3fbfbc7dc2beadbc8b9f218462/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/simusohil/.gradle/caches/transforms-3/2bf7dd3fbfbc7dc2beadbc8b9f218462/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/simusohil/.gradle/caches/transforms-3/f3066f6bfe821ca4038f657de9c24836/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/simusohil/.gradle/caches/transforms-3/f3066f6bfe821ca4038f657de9c24836/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:19:5-44
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] /Users/simusohil/.gradle/caches/transforms-3/7d3313807bc17557f3d7a2cfa181b720/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] /Users/simusohil/.gradle/caches/transforms-3/7d3313807bc17557f3d7a2cfa181b720/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] /Users/simusohil/.gradle/caches/transforms-3/7acaa32af0e67a6c677bcdabdd2de050/transformed/jetified-play-services-auth-api-phone-18.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] /Users/simusohil/.gradle/caches/transforms-3/7acaa32af0e67a6c677bcdabdd2de050/transformed/jetified-play-services-auth-api-phone-18.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] /Users/simusohil/.gradle/caches/transforms-3/e745b3fe6b16bea8e20920ff2509e776/transformed/jetified-recaptcha-18.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] /Users/simusohil/.gradle/caches/transforms-3/e745b3fe6b16bea8e20920ff2509e776/transformed/jetified-recaptcha-18.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.play:integrity:1.2.0] /Users/simusohil/.gradle/caches/transforms-3/e27de45e918ebbd289937904e3834101/transformed/jetified-integrity-1.2.0/AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.play:integrity:1.2.0] /Users/simusohil/.gradle/caches/transforms-3/e27de45e918ebbd289937904e3834101/transformed/jetified-integrity-1.2.0/AndroidManifest.xml:4:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/simusohil/.gradle/caches/transforms-3/b5e7bc62c07cd9764e5b28bb75014607/transformed/jetified-firebase-appcheck-interop-17.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/simusohil/.gradle/caches/transforms-3/b5e7bc62c07cd9764e5b28bb75014607/transformed/jetified-firebase-appcheck-interop-17.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.gms:play-services-fido:20.1.0] /Users/simusohil/.gradle/caches/transforms-3/354c66f38e3ba28619bd11e6ea9603dd/transformed/jetified-play-services-fido-20.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-fido:20.1.0] /Users/simusohil/.gradle/caches/transforms-3/354c66f38e3ba28619bd11e6ea9603dd/transformed/jetified-play-services-fido-20.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] /Users/simusohil/.gradle/caches/transforms-3/4c61a322aad3afceff80cdfd2d8e6991/transformed/jetified-play-services-auth-base-18.0.4/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] /Users/simusohil/.gradle/caches/transforms-3/4c61a322aad3afceff80cdfd2d8e6991/transformed/jetified-play-services-auth-base-18.0.4/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/simusohil/.gradle/caches/transforms-3/1a055176cd3836df10cd5eb334faf6d7/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/simusohil/.gradle/caches/transforms-3/1a055176cd3836df10cd5eb334faf6d7/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [androidx.loader:loader:1.0.0] /Users/simusohil/.gradle/caches/transforms-3/a637a48112c6d55e69268f61b64795dc/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/simusohil/.gradle/caches/transforms-3/a637a48112c6d55e69268f61b64795dc/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /Users/simusohil/.gradle/caches/transforms-3/3721b3f1ccaf2bc7e7dab3dd53b44ca2/transformed/jetified-lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /Users/simusohil/.gradle/caches/transforms-3/3721b3f1ccaf2bc7e7dab3dd53b44ca2/transformed/jetified-lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /Users/simusohil/.gradle/caches/transforms-3/3db9b00dfb0398895b1f3773a7356832/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /Users/simusohil/.gradle/caches/transforms-3/3db9b00dfb0398895b1f3773a7356832/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /Users/simusohil/.gradle/caches/transforms-3/6ca65c43b930d5411912ad3e653f4097/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /Users/simusohil/.gradle/caches/transforms-3/6ca65c43b930d5411912ad3e653f4097/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /Users/simusohil/.gradle/caches/transforms-3/79e64b439afd422335eb5b03c352f246/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /Users/simusohil/.gradle/caches/transforms-3/79e64b439afd422335eb5b03c352f246/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/simusohil/.gradle/caches/transforms-3/a8e1c5a62419563a2a63de3a72457386/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/simusohil/.gradle/caches/transforms-3/a8e1c5a62419563a2a63de3a72457386/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /Users/simusohil/.gradle/caches/transforms-3/8d576f45e31f05e77c8ee699b7852335/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /Users/simusohil/.gradle/caches/transforms-3/8d576f45e31f05e77c8ee699b7852335/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] /Users/simusohil/.gradle/caches/transforms-3/43b0550adeb80d93a0be555f0b7d1d48/transformed/jetified-play-services-tasks-18.1.0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] /Users/simusohil/.gradle/caches/transforms-3/43b0550adeb80d93a0be555f0b7d1d48/transformed/jetified-play-services-tasks-18.1.0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] /Users/simusohil/.gradle/caches/transforms-3/646a488d66ca28bc1a883b8f70bb36ba/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] /Users/simusohil/.gradle/caches/transforms-3/646a488d66ca28bc1a883b8f70bb36ba/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.7.1] /Users/simusohil/.gradle/caches/transforms-3/1ccaf9cf684e089426becda668196b86/transformed/fragment-1.7.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment:1.7.1] /Users/simusohil/.gradle/caches/transforms-3/1ccaf9cf684e089426becda668196b86/transformed/fragment-1.7.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity:1.8.1] /Users/simusohil/.gradle/caches/transforms-3/3b0248bbf133ae1e37debf4cf5896738/transformed/jetified-activity-1.8.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.1] /Users/simusohil/.gradle/caches/transforms-3/3b0248bbf133ae1e37debf4cf5896738/transformed/jetified-activity-1.8.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/simusohil/.gradle/caches/transforms-3/6b11cc3777da29c180d17a4097271950/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/simusohil/.gradle/caches/transforms-3/6b11cc3777da29c180d17a4097271950/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/simusohil/.gradle/caches/transforms-3/a60b09b30fecbfbd0b82f41021b41419/transformed/jetified-core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/simusohil/.gradle/caches/transforms-3/a60b09b30fecbfbd0b82f41021b41419/transformed/jetified-core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.browser:browser:1.4.0] /Users/simusohil/.gradle/caches/transforms-3/1ad8122b6c97dc55ef0a1901d06fd42e/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] /Users/simusohil/.gradle/caches/transforms-3/1ad8122b6c97dc55ef0a1901d06fd42e/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/simusohil/.gradle/caches/transforms-3/1e8af1ca00093b8425b6996a179a252c/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/simusohil/.gradle/caches/transforms-3/1e8af1ca00093b8425b6996a179a252c/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] /Users/simusohil/.gradle/caches/transforms-3/6430f4e3b0faebfe1b3eda4b90828a2c/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] /Users/simusohil/.gradle/caches/transforms-3/6430f4e3b0faebfe1b3eda4b90828a2c/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /Users/simusohil/.gradle/caches/transforms-3/176575d80adebce00aa96bd227962e1f/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /Users/simusohil/.gradle/caches/transforms-3/176575d80adebce00aa96bd227962e1f/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/simusohil/.gradle/caches/transforms-3/43ebc5e51d1c66c0d84361621ba60ff0/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/simusohil/.gradle/caches/transforms-3/43ebc5e51d1c66c0d84361621ba60ff0/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/simusohil/.gradle/caches/transforms-3/9aeed4728b4b4b74dda16842ae3cb807/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/simusohil/.gradle/caches/transforms-3/9aeed4728b4b4b74dda16842ae3cb807/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/simusohil/.gradle/caches/transforms-3/d169610e93ab85280e50645141adb743/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/simusohil/.gradle/caches/transforms-3/d169610e93ab85280e50645141adb743/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/simusohil/.gradle/caches/transforms-3/1d74829cba53c8cea9298290b06e0d79/transformed/jetified-tracing-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/simusohil/.gradle/caches/transforms-3/1d74829cba53c8cea9298290b06e0d79/transformed/jetified-tracing-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/simusohil/.gradle/caches/transforms-3/295647598c2866308621c94549bf0bb9/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/simusohil/.gradle/caches/transforms-3/295647598c2866308621c94549bf0bb9/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/simusohil/.gradle/caches/transforms-3/2780d6879e22daee9ecb08094c931ac6/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/simusohil/.gradle/caches/transforms-3/2780d6879e22daee9ecb08094c931ac6/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/simusohil/.gradle/caches/transforms-3/6d7cb45695ec0cda848617f21bd6fdd9/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/simusohil/.gradle/caches/transforms-3/6d7cb45695ec0cda848617f21bd6fdd9/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/simusohil/.gradle/caches/transforms-3/7d3d19a2a98e677d32dc2d55829c44e6/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/simusohil/.gradle/caches/transforms-3/7d3d19a2a98e677d32dc2d55829c44e6/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:18.0.0] /Users/simusohil/.gradle/caches/transforms-3/1705a4758267e586d7c41c8c55a8fccd/transformed/jetified-firebase-components-18.0.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-components:18.0.0] /Users/simusohil/.gradle/caches/transforms-3/1705a4758267e586d7c41c8c55a8fccd/transformed/jetified-firebase-components-18.0.0/AndroidManifest.xml:18:5-44
+MERGED from [androidx.window.extensions.core:core:1.0.0] /Users/simusohil/.gradle/caches/transforms-3/bd56a8c86f5d9dfd8e06ca6bd44b27dd/transformed/jetified-core-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.window.extensions.core:core:1.0.0] /Users/simusohil/.gradle/caches/transforms-3/bd56a8c86f5d9dfd8e06ca6bd44b27dd/transformed/jetified-core-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/simusohil/.gradle/caches/transforms-3/5c87b94a99b43b14e0ff703167c8a164/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/simusohil/.gradle/caches/transforms-3/5c87b94a99b43b14e0ff703167c8a164/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
 INJECTED from /Users/simusohil/Developer/Internship/cdac_design/frontend/android/app/src/debug/AndroidManifest.xml
 INJECTED from /Users/simusohil/Developer/Internship/cdac_design/frontend/android/app/src/debug/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/simusohil/.gradle/caches/transforms-3/b9ba1dad3dc85dbfd7292e7738866ac7/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:23:9-148
 	android:targetSdkVersion
 		INJECTED from /Users/simusohil/Developer/Internship/cdac_design/frontend/android/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/simusohil/Developer/Internship/cdac_design/frontend/android/app/src/debug/AndroidManifest.xml
@@ -222,6 +318,10 @@ INJECTED from /Users/simusohil/Developer/Internship/cdac_design/frontend/android
 		INJECTED from /Users/simusohil/Developer/Internship/cdac_design/frontend/android/app/src/debug/AndroidManifest.xml
 uses-permission#android.permission.INTERNET
 ADDED from /Users/simusohil/Developer/Internship/cdac_design/frontend/android/app/src/debug/AndroidManifest.xml:6:5-66
+MERGED from [com.google.firebase:firebase-auth:23.0.0] /Users/simusohil/.gradle/caches/transforms-3/b9ba1dad3dc85dbfd7292e7738866ac7/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-auth:23.0.0] /Users/simusohil/.gradle/caches/transforms-3/b9ba1dad3dc85dbfd7292e7738866ac7/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:25:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] /Users/simusohil/.gradle/caches/transforms-3/e745b3fe6b16bea8e20920ff2509e776/transformed/jetified-recaptcha-18.4.0/AndroidManifest.xml:7:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] /Users/simusohil/.gradle/caches/transforms-3/e745b3fe6b16bea8e20920ff2509e776/transformed/jetified-recaptcha-18.4.0/AndroidManifest.xml:7:5-67
 	android:name
 		ADDED from /Users/simusohil/Developer/Internship/cdac_design/frontend/android/app/src/debug/AndroidManifest.xml:6:22-64
 intent#action:name:android.accounts.AccountAuthenticator
@@ -248,6 +348,36 @@ action#android.intent.action.GET_CONTENT
 ADDED from [:file_picker] /Users/simusohil/Developer/Internship/cdac_design/frontend/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-72
 	android:name
 		ADDED from [:file_picker] /Users/simusohil/Developer/Internship/cdac_design/frontend/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:15:21-69
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [:firebase_auth] /Users/simusohil/Developer/Internship/cdac_design/frontend/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_core] /Users/simusohil/Developer/Internship/cdac_design/frontend/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_core] /Users/simusohil/Developer/Internship/cdac_design/frontend/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+MERGED from [com.google.firebase:firebase-auth:23.0.0] /Users/simusohil/.gradle/caches/transforms-3/b9ba1dad3dc85dbfd7292e7738866ac7/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:66:9-72:19
+MERGED from [com.google.firebase:firebase-auth:23.0.0] /Users/simusohil/.gradle/caches/transforms-3/b9ba1dad3dc85dbfd7292e7738866ac7/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:66:9-72:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/simusohil/.gradle/caches/transforms-3/7edf9712d021b137d42fd55ad209f8e4/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/simusohil/.gradle/caches/transforms-3/7edf9712d021b137d42fd55ad209f8e4/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/simusohil/.gradle/caches/transforms-3/f3066f6bfe821ca4038f657de9c24836/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:30:9-38:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/simusohil/.gradle/caches/transforms-3/f3066f6bfe821ca4038f657de9c24836/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:30:9-38:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/simusohil/.gradle/caches/transforms-3/b9ba1dad3dc85dbfd7292e7738866ac7/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:68:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/simusohil/.gradle/caches/transforms-3/f3066f6bfe821ca4038f657de9c24836/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:34:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/simusohil/.gradle/caches/transforms-3/f3066f6bfe821ca4038f657de9c24836/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:32:13-43
+	android:name
+		ADDED from [:firebase_auth] /Users/simusohil/Developer/Internship/cdac_design/frontend/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:10:18-89
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar
+ADDED from [:firebase_auth] /Users/simusohil/Developer/Internship/cdac_design/frontend/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [:firebase_auth] /Users/simusohil/Developer/Internship/cdac_design/frontend/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [:firebase_auth] /Users/simusohil/Developer/Internship/cdac_design/frontend/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar
+ADDED from [:firebase_core] /Users/simusohil/Developer/Internship/cdac_design/frontend/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [:firebase_core] /Users/simusohil/Developer/Internship/cdac_design/frontend/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [:firebase_core] /Users/simusohil/Developer/Internship/cdac_design/frontend/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
 uses-permission#android.permission.VIBRATE
 ADDED from [:flutter_local_notifications] /Users/simusohil/Developer/Internship/cdac_design/frontend/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-66
 	android:name
@@ -260,97 +390,237 @@ uses-permission#android.permission.WAKE_LOCK
 ADDED from [:flutter_overlay_window] /Users/simusohil/Developer/Internship/cdac_design/frontend/build/flutter_overlay_window/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-68
 	android:name
 		ADDED from [:flutter_overlay_window] /Users/simusohil/Developer/Internship/cdac_design/frontend/build/flutter_overlay_window/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-65
-uses-library#androidx.window.extensions
-ADDED from [androidx.window:window:1.2.0] /Users/simusohil/.gradle/caches/transforms-3/1df38b1fd9979fe065e8eb6119fc0ad4/transformed/jetified-window-1.2.0/AndroidManifest.xml:23:9-25:40
-	android:required
-		ADDED from [androidx.window:window:1.2.0] /Users/simusohil/.gradle/caches/transforms-3/1df38b1fd9979fe065e8eb6119fc0ad4/transformed/jetified-window-1.2.0/AndroidManifest.xml:25:13-37
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/simusohil/.gradle/caches/transforms-3/b9ba1dad3dc85dbfd7292e7738866ac7/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] /Users/simusohil/.gradle/caches/transforms-3/e745b3fe6b16bea8e20920ff2509e776/transformed/jetified-recaptcha-18.4.0/AndroidManifest.xml:8:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] /Users/simusohil/.gradle/caches/transforms-3/e745b3fe6b16bea8e20920ff2509e776/transformed/jetified-recaptcha-18.4.0/AndroidManifest.xml:8:5-79
 	android:name
-		ADDED from [androidx.window:window:1.2.0] /Users/simusohil/.gradle/caches/transforms-3/1df38b1fd9979fe065e8eb6119fc0ad4/transformed/jetified-window-1.2.0/AndroidManifest.xml:24:13-54
-uses-library#androidx.window.sidecar
-ADDED from [androidx.window:window:1.2.0] /Users/simusohil/.gradle/caches/transforms-3/1df38b1fd9979fe065e8eb6119fc0ad4/transformed/jetified-window-1.2.0/AndroidManifest.xml:26:9-28:40
-	android:required
-		ADDED from [androidx.window:window:1.2.0] /Users/simusohil/.gradle/caches/transforms-3/1df38b1fd9979fe065e8eb6119fc0ad4/transformed/jetified-window-1.2.0/AndroidManifest.xml:28:13-37
-	android:name
-		ADDED from [androidx.window:window:1.2.0] /Users/simusohil/.gradle/caches/transforms-3/1df38b1fd9979fe065e8eb6119fc0ad4/transformed/jetified-window-1.2.0/AndroidManifest.xml:27:13-51
-provider#androidx.startup.InitializationProvider
-ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/simusohil/.gradle/caches/transforms-3/80ba39cc38777c140051c1d40ad7cd31/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/simusohil/.gradle/caches/transforms-3/6b42a1475832e971603c3bac16a8450c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/simusohil/.gradle/caches/transforms-3/6b42a1475832e971603c3bac16a8450c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/simusohil/.gradle/caches/transforms-3/7ea3e1185ec380ec440d8e9c1720d237/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/simusohil/.gradle/caches/transforms-3/7ea3e1185ec380ec440d8e9c1720d237/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
-	tools:node
-		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/simusohil/.gradle/caches/transforms-3/80ba39cc38777c140051c1d40ad7cd31/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:28:13-31
-	android:authorities
-		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/simusohil/.gradle/caches/transforms-3/80ba39cc38777c140051c1d40ad7cd31/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:26:13-68
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/simusohil/.gradle/caches/transforms-3/b9ba1dad3dc85dbfd7292e7738866ac7/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:26:22-76
+activity#com.google.firebase.auth.internal.GenericIdpActivity
+ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/simusohil/.gradle/caches/transforms-3/b9ba1dad3dc85dbfd7292e7738866ac7/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:29:9-46:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/simusohil/.gradle/caches/transforms-3/b9ba1dad3dc85dbfd7292e7738866ac7/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:31:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/simusohil/.gradle/caches/transforms-3/b9ba1dad3dc85dbfd7292e7738866ac7/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:33:13-44
 	android:exported
-		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/simusohil/.gradle/caches/transforms-3/80ba39cc38777c140051c1d40ad7cd31/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:27:13-37
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/simusohil/.gradle/caches/transforms-3/b9ba1dad3dc85dbfd7292e7738866ac7/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:32:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/simusohil/.gradle/caches/transforms-3/b9ba1dad3dc85dbfd7292e7738866ac7/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:34:13-72
 	android:name
-		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/simusohil/.gradle/caches/transforms-3/80ba39cc38777c140051c1d40ad7cd31/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:25:13-67
-meta-data#androidx.lifecycle.ProcessLifecycleInitializer
-ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/simusohil/.gradle/caches/transforms-3/80ba39cc38777c140051c1d40ad7cd31/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/simusohil/.gradle/caches/transforms-3/b9ba1dad3dc85dbfd7292e7738866ac7/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:30:13-80
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
+ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/simusohil/.gradle/caches/transforms-3/b9ba1dad3dc85dbfd7292e7738866ac7/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:35:13-45:29
+category#android.intent.category.DEFAULT
+ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/simusohil/.gradle/caches/transforms-3/b9ba1dad3dc85dbfd7292e7738866ac7/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:38:17-76
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/simusohil/.gradle/caches/transforms-3/b9ba1dad3dc85dbfd7292e7738866ac7/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:38:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/simusohil/.gradle/caches/transforms-3/b9ba1dad3dc85dbfd7292e7738866ac7/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:39:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/simusohil/.gradle/caches/transforms-3/b9ba1dad3dc85dbfd7292e7738866ac7/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:39:27-75
+activity#com.google.firebase.auth.internal.RecaptchaActivity
+ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/simusohil/.gradle/caches/transforms-3/b9ba1dad3dc85dbfd7292e7738866ac7/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:47:9-64:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/simusohil/.gradle/caches/transforms-3/b9ba1dad3dc85dbfd7292e7738866ac7/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:49:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/simusohil/.gradle/caches/transforms-3/b9ba1dad3dc85dbfd7292e7738866ac7/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:51:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/simusohil/.gradle/caches/transforms-3/b9ba1dad3dc85dbfd7292e7738866ac7/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:50:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/simusohil/.gradle/caches/transforms-3/b9ba1dad3dc85dbfd7292e7738866ac7/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:52:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/simusohil/.gradle/caches/transforms-3/b9ba1dad3dc85dbfd7292e7738866ac7/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:48:13-79
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:recaptcha
+ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/simusohil/.gradle/caches/transforms-3/b9ba1dad3dc85dbfd7292e7738866ac7/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:53:13-63:29
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/simusohil/.gradle/caches/transforms-3/b9ba1dad3dc85dbfd7292e7738866ac7/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:69:13-71:85
 	android:value
-		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/simusohil/.gradle/caches/transforms-3/80ba39cc38777c140051c1d40ad7cd31/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/simusohil/.gradle/caches/transforms-3/b9ba1dad3dc85dbfd7292e7738866ac7/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:71:17-82
 	android:name
-		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/simusohil/.gradle/caches/transforms-3/80ba39cc38777c140051c1d40ad7cd31/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.13.1] /Users/simusohil/.gradle/caches/transforms-3/4b8b481fb2255c467bc7c602d4317379/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
-	android:protectionLevel
-		ADDED from [androidx.core:core:1.13.1] /Users/simusohil/.gradle/caches/transforms-3/4b8b481fb2255c467bc7c602d4317379/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
-	android:name
-		ADDED from [androidx.core:core:1.13.1] /Users/simusohil/.gradle/caches/transforms-3/4b8b481fb2255c467bc7c602d4317379/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
-permission#com.example.cdac_design.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.13.1] /Users/simusohil/.gradle/caches/transforms-3/4b8b481fb2255c467bc7c602d4317379/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
-	android:protectionLevel
-		ADDED from [androidx.core:core:1.13.1] /Users/simusohil/.gradle/caches/transforms-3/4b8b481fb2255c467bc7c602d4317379/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
-	android:name
-		ADDED from [androidx.core:core:1.13.1] /Users/simusohil/.gradle/caches/transforms-3/4b8b481fb2255c467bc7c602d4317379/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
-uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.13.1] /Users/simusohil/.gradle/caches/transforms-3/4b8b481fb2255c467bc7c602d4317379/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
-	android:name
-		ADDED from [androidx.core:core:1.13.1] /Users/simusohil/.gradle/caches/transforms-3/4b8b481fb2255c467bc7c602d4317379/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
-uses-permission#com.example.cdac_design.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.13.1] /Users/simusohil/.gradle/caches/transforms-3/4b8b481fb2255c467bc7c602d4317379/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
-	android:name
-		ADDED from [androidx.core:core:1.13.1] /Users/simusohil/.gradle/caches/transforms-3/4b8b481fb2255c467bc7c602d4317379/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
-meta-data#androidx.profileinstaller.ProfileInstallerInitializer
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/simusohil/.gradle/caches/transforms-3/6b42a1475832e971603c3bac16a8450c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/simusohil/.gradle/caches/transforms-3/b9ba1dad3dc85dbfd7292e7738866ac7/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:70:17-109
+meta-data#com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar
+ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/simusohil/.gradle/caches/transforms-3/7edf9712d021b137d42fd55ad209f8e4/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:12:13-14:85
 	android:value
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/simusohil/.gradle/caches/transforms-3/6b42a1475832e971603c3bac16a8450c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+		ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/simusohil/.gradle/caches/transforms-3/7edf9712d021b137d42fd55ad209f8e4/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:14:17-82
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/simusohil/.gradle/caches/transforms-3/6b42a1475832e971603c3bac16a8450c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
-receiver#androidx.profileinstaller.ProfileInstallReceiver
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/simusohil/.gradle/caches/transforms-3/6b42a1475832e971603c3bac16a8450c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+		ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/simusohil/.gradle/caches/transforms-3/7edf9712d021b137d42fd55ad209f8e4/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:13:17-116
+service#androidx.credentials.playservices.CredentialProviderMetadataHolder
+ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/simusohil/.gradle/caches/transforms-3/8801c95ea09a0365798a9b75f4d42684/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:24:9-32:19
 	android:enabled
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/simusohil/.gradle/caches/transforms-3/6b42a1475832e971603c3bac16a8450c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/simusohil/.gradle/caches/transforms-3/8801c95ea09a0365798a9b75f4d42684/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:26:13-35
 	android:exported
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/simusohil/.gradle/caches/transforms-3/6b42a1475832e971603c3bac16a8450c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
-	android:permission
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/simusohil/.gradle/caches/transforms-3/6b42a1475832e971603c3bac16a8450c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/simusohil/.gradle/caches/transforms-3/8801c95ea09a0365798a9b75f4d42684/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/simusohil/.gradle/caches/transforms-3/8801c95ea09a0365798a9b75f4d42684/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:28:13-60
+	android:name
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/simusohil/.gradle/caches/transforms-3/8801c95ea09a0365798a9b75f4d42684/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:25:13-94
+meta-data#androidx.credentials.CREDENTIAL_PROVIDER_KEY
+ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/simusohil/.gradle/caches/transforms-3/8801c95ea09a0365798a9b75f4d42684/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:29:13-31:104
+	android:value
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/simusohil/.gradle/caches/transforms-3/8801c95ea09a0365798a9b75f4d42684/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:31:17-101
+	android:name
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/simusohil/.gradle/caches/transforms-3/8801c95ea09a0365798a9b75f4d42684/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:30:17-76
+activity#androidx.credentials.playservices.HiddenActivity
+ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/simusohil/.gradle/caches/transforms-3/8801c95ea09a0365798a9b75f4d42684/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:34:9-41:20
+	android:fitsSystemWindows
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/simusohil/.gradle/caches/transforms-3/8801c95ea09a0365798a9b75f4d42684/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:39:13-45
+	android:enabled
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/simusohil/.gradle/caches/transforms-3/8801c95ea09a0365798a9b75f4d42684/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/simusohil/.gradle/caches/transforms-3/8801c95ea09a0365798a9b75f4d42684/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:38:13-37
+	android:configChanges
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/simusohil/.gradle/caches/transforms-3/8801c95ea09a0365798a9b75f4d42684/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:36:13-87
+	android:theme
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/simusohil/.gradle/caches/transforms-3/8801c95ea09a0365798a9b75f4d42684/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:40:13-48
+	android:name
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/simusohil/.gradle/caches/transforms-3/8801c95ea09a0365798a9b75f4d42684/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:35:13-76
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.2.0] /Users/simusohil/.gradle/caches/transforms-3/eace721136ac70d22a327078935f4b85/transformed/jetified-window-1.2.0/AndroidManifest.xml:23:9-25:40
+	android:required
+		ADDED from [androidx.window:window:1.2.0] /Users/simusohil/.gradle/caches/transforms-3/eace721136ac70d22a327078935f4b85/transformed/jetified-window-1.2.0/AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [androidx.window:window:1.2.0] /Users/simusohil/.gradle/caches/transforms-3/eace721136ac70d22a327078935f4b85/transformed/jetified-window-1.2.0/AndroidManifest.xml:24:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.2.0] /Users/simusohil/.gradle/caches/transforms-3/eace721136ac70d22a327078935f4b85/transformed/jetified-window-1.2.0/AndroidManifest.xml:26:9-28:40
+	android:required
+		ADDED from [androidx.window:window:1.2.0] /Users/simusohil/.gradle/caches/transforms-3/eace721136ac70d22a327078935f4b85/transformed/jetified-window-1.2.0/AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.window:window:1.2.0] /Users/simusohil/.gradle/caches/transforms-3/eace721136ac70d22a327078935f4b85/transformed/jetified-window-1.2.0/AndroidManifest.xml:27:13-51
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/simusohil/.gradle/caches/transforms-3/f3066f6bfe821ca4038f657de9c24836/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:23:9-28:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/simusohil/.gradle/caches/transforms-3/f3066f6bfe821ca4038f657de9c24836/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:25:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/simusohil/.gradle/caches/transforms-3/f3066f6bfe821ca4038f657de9c24836/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:27:13-37
 	android:directBootAware
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/simusohil/.gradle/caches/transforms-3/6b42a1475832e971603c3bac16a8450c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/simusohil/.gradle/caches/transforms-3/f3066f6bfe821ca4038f657de9c24836/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:26:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/simusohil/.gradle/caches/transforms-3/f3066f6bfe821ca4038f657de9c24836/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:28:13-36
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/simusohil/.gradle/caches/transforms-3/6b42a1475832e971603c3bac16a8450c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/simusohil/.gradle/caches/transforms-3/f3066f6bfe821ca4038f657de9c24836/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:24:13-77
+meta-data#com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar
+ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/simusohil/.gradle/caches/transforms-3/f3066f6bfe821ca4038f657de9c24836/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:35:13-37:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/simusohil/.gradle/caches/transforms-3/f3066f6bfe821ca4038f657de9c24836/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:37:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/simusohil/.gradle/caches/transforms-3/f3066f6bfe821ca4038f657de9c24836/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:36:17-109
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/simusohil/.gradle/caches/transforms-3/7d3313807bc17557f3d7a2cfa181b720/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/simusohil/.gradle/caches/transforms-3/7d3313807bc17557f3d7a2cfa181b720/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/simusohil/.gradle/caches/transforms-3/7d3313807bc17557f3d7a2cfa181b720/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/simusohil/.gradle/caches/transforms-3/7d3313807bc17557f3d7a2cfa181b720/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/simusohil/.gradle/caches/transforms-3/7d3313807bc17557f3d7a2cfa181b720/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/simusohil/.gradle/caches/transforms-3/7d3313807bc17557f3d7a2cfa181b720/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:33:9-37:51
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/simusohil/.gradle/caches/transforms-3/7d3313807bc17557f3d7a2cfa181b720/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:35:13-36
+	android:visibleToInstantApps
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/simusohil/.gradle/caches/transforms-3/7d3313807bc17557f3d7a2cfa181b720/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:37:13-48
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/simusohil/.gradle/caches/transforms-3/7d3313807bc17557f3d7a2cfa181b720/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/simusohil/.gradle/caches/transforms-3/7d3313807bc17557f3d7a2cfa181b720/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:34:13-89
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from [com.google.android.recaptcha:recaptcha:18.4.0] /Users/simusohil/.gradle/caches/transforms-3/e745b3fe6b16bea8e20920ff2509e776/transformed/jetified-recaptcha-18.4.0/AndroidManifest.xml:9:5-98
+	android:name
+		ADDED from [com.google.android.recaptcha:recaptcha:18.4.0] /Users/simusohil/.gradle/caches/transforms-3/e745b3fe6b16bea8e20920ff2509e776/transformed/jetified-recaptcha-18.4.0/AndroidManifest.xml:9:22-95
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/simusohil/.gradle/caches/transforms-3/1a055176cd3836df10cd5eb334faf6d7/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/simusohil/.gradle/caches/transforms-3/1a055176cd3836df10cd5eb334faf6d7/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/simusohil/.gradle/caches/transforms-3/1a055176cd3836df10cd5eb334faf6d7/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/simusohil/.gradle/caches/transforms-3/1a055176cd3836df10cd5eb334faf6d7/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/simusohil/.gradle/caches/transforms-3/a8e1c5a62419563a2a63de3a72457386/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/simusohil/.gradle/caches/transforms-3/9aeed4728b4b4b74dda16842ae3cb807/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/simusohil/.gradle/caches/transforms-3/9aeed4728b4b4b74dda16842ae3cb807/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/simusohil/.gradle/caches/transforms-3/d169610e93ab85280e50645141adb743/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/simusohil/.gradle/caches/transforms-3/d169610e93ab85280e50645141adb743/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/simusohil/.gradle/caches/transforms-3/a8e1c5a62419563a2a63de3a72457386/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/simusohil/.gradle/caches/transforms-3/a8e1c5a62419563a2a63de3a72457386/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/simusohil/.gradle/caches/transforms-3/a8e1c5a62419563a2a63de3a72457386/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/simusohil/.gradle/caches/transforms-3/a8e1c5a62419563a2a63de3a72457386/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/simusohil/.gradle/caches/transforms-3/a8e1c5a62419563a2a63de3a72457386/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/simusohil/.gradle/caches/transforms-3/a8e1c5a62419563a2a63de3a72457386/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/simusohil/.gradle/caches/transforms-3/a8e1c5a62419563a2a63de3a72457386/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.3.0] /Users/simusohil/.gradle/caches/transforms-3/646a488d66ca28bc1a883b8f70bb36ba/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.3.0] /Users/simusohil/.gradle/caches/transforms-3/646a488d66ca28bc1a883b8f70bb36ba/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.3.0] /Users/simusohil/.gradle/caches/transforms-3/646a488d66ca28bc1a883b8f70bb36ba/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:22:13-58
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/simusohil/.gradle/caches/transforms-3/6430f4e3b0faebfe1b3eda4b90828a2c/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /Users/simusohil/.gradle/caches/transforms-3/6430f4e3b0faebfe1b3eda4b90828a2c/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/simusohil/.gradle/caches/transforms-3/6430f4e3b0faebfe1b3eda4b90828a2c/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+permission#com.example.cdac_design.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/simusohil/.gradle/caches/transforms-3/6430f4e3b0faebfe1b3eda4b90828a2c/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /Users/simusohil/.gradle/caches/transforms-3/6430f4e3b0faebfe1b3eda4b90828a2c/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/simusohil/.gradle/caches/transforms-3/6430f4e3b0faebfe1b3eda4b90828a2c/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/simusohil/.gradle/caches/transforms-3/6430f4e3b0faebfe1b3eda4b90828a2c/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/simusohil/.gradle/caches/transforms-3/6430f4e3b0faebfe1b3eda4b90828a2c/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+uses-permission#com.example.cdac_design.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/simusohil/.gradle/caches/transforms-3/6430f4e3b0faebfe1b3eda4b90828a2c/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/simusohil/.gradle/caches/transforms-3/6430f4e3b0faebfe1b3eda4b90828a2c/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/simusohil/.gradle/caches/transforms-3/9aeed4728b4b4b74dda16842ae3cb807/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/simusohil/.gradle/caches/transforms-3/9aeed4728b4b4b74dda16842ae3cb807/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/simusohil/.gradle/caches/transforms-3/9aeed4728b4b4b74dda16842ae3cb807/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/simusohil/.gradle/caches/transforms-3/9aeed4728b4b4b74dda16842ae3cb807/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/simusohil/.gradle/caches/transforms-3/9aeed4728b4b4b74dda16842ae3cb807/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/simusohil/.gradle/caches/transforms-3/9aeed4728b4b4b74dda16842ae3cb807/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/simusohil/.gradle/caches/transforms-3/9aeed4728b4b4b74dda16842ae3cb807/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/simusohil/.gradle/caches/transforms-3/9aeed4728b4b4b74dda16842ae3cb807/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/simusohil/.gradle/caches/transforms-3/9aeed4728b4b4b74dda16842ae3cb807/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
 intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/simusohil/.gradle/caches/transforms-3/6b42a1475832e971603c3bac16a8450c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/simusohil/.gradle/caches/transforms-3/9aeed4728b4b4b74dda16842ae3cb807/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
 action#androidx.profileinstaller.action.INSTALL_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/simusohil/.gradle/caches/transforms-3/6b42a1475832e971603c3bac16a8450c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/simusohil/.gradle/caches/transforms-3/9aeed4728b4b4b74dda16842ae3cb807/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/simusohil/.gradle/caches/transforms-3/6b42a1475832e971603c3bac16a8450c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/simusohil/.gradle/caches/transforms-3/9aeed4728b4b4b74dda16842ae3cb807/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
 intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/simusohil/.gradle/caches/transforms-3/6b42a1475832e971603c3bac16a8450c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/simusohil/.gradle/caches/transforms-3/9aeed4728b4b4b74dda16842ae3cb807/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
 action#androidx.profileinstaller.action.SKIP_FILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/simusohil/.gradle/caches/transforms-3/6b42a1475832e971603c3bac16a8450c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/simusohil/.gradle/caches/transforms-3/9aeed4728b4b4b74dda16842ae3cb807/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/simusohil/.gradle/caches/transforms-3/6b42a1475832e971603c3bac16a8450c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/simusohil/.gradle/caches/transforms-3/9aeed4728b4b4b74dda16842ae3cb807/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
 intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/simusohil/.gradle/caches/transforms-3/6b42a1475832e971603c3bac16a8450c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/simusohil/.gradle/caches/transforms-3/9aeed4728b4b4b74dda16842ae3cb807/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
 action#androidx.profileinstaller.action.SAVE_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/simusohil/.gradle/caches/transforms-3/6b42a1475832e971603c3bac16a8450c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/simusohil/.gradle/caches/transforms-3/9aeed4728b4b4b74dda16842ae3cb807/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/simusohil/.gradle/caches/transforms-3/6b42a1475832e971603c3bac16a8450c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/simusohil/.gradle/caches/transforms-3/9aeed4728b4b4b74dda16842ae3cb807/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
 intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/simusohil/.gradle/caches/transforms-3/6b42a1475832e971603c3bac16a8450c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/simusohil/.gradle/caches/transforms-3/9aeed4728b4b4b74dda16842ae3cb807/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
 action#androidx.profileinstaller.action.BENCHMARK_OPERATION
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/simusohil/.gradle/caches/transforms-3/6b42a1475832e971603c3bac16a8450c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/simusohil/.gradle/caches/transforms-3/9aeed4728b4b4b74dda16842ae3cb807/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/simusohil/.gradle/caches/transforms-3/6b42a1475832e971603c3bac16a8450c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/simusohil/.gradle/caches/transforms-3/9aeed4728b4b4b74dda16842ae3cb807/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
