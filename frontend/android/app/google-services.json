@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "670479563518",
+    "project_id": "cdac-vishing-project",
+    "storage_bucket": "cdac-vishing-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:670479563518:android:4b425e7a76b73092b343af",
+        "android_client_info": {
+          "package_name": "com.example.cdac_design"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZUfrH51bDdPvRp2qwqR2GTS0WbPtZ3_k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

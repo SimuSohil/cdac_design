@@ -203,6 +203,7 @@ class PhoneStateBackgroundHandler {
 
   static Future<void> showNotification(String title, String body) async {
     await ensureInitialized(); // Add this line
+
     const AndroidNotificationDetails androidPlatformChannelSpecifics = AndroidNotificationDetails(
       'your_channel_id', // Ensure this matches the channel ID used in showNotification
       'your_channel_name',
@@ -210,9 +211,10 @@ class PhoneStateBackgroundHandler {
       importance: Importance.max,
       priority: Priority.high,
       showWhen: false,
+      playSound: true,
     );
     const NotificationDetails platformChannelSpecifics = NotificationDetails(android: androidPlatformChannelSpecifics);
-    await flutterLocalNotificationsPlugin.show(0, title, body, platformChannelSpecifics, payload: 'item x');
+    await flutterLocalNotificationsPlugin.show(0, title, body, platformChannelSpecifics, payload: 'incoming_call');
   }
 
   static Future<void> ensureInitialized() async {
@@ -245,9 +247,10 @@ class PhoneStateBackgroundHandler {
         log('Voice file sent successfully.');
         var res = await response.stream.bytesToString();
         final jsonResponse = json.decode(res);
-        log(jsonResponse['phishing_count'].toString());
-        log(jsonResponse['phishing_percentage'].toString());
+        log('phishing_count: ${jsonResponse['phishing_count'].toString()}');
+        log('phsihing_percentage: ${jsonResponse['phishing_percentage'].toString()}');
         if (jsonResponse['phishing_percentage'] > 15 ){
+          log('spam number detected');
         }
       } else {
         log('Failed to send voice file. Status code: ${response.statusCode}');
